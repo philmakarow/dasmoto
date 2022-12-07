@@ -1,0 +1,228 @@
+/* general */
+body {
+    background-color: ghostwhite;
+    margin: auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+    font-weight: bolder;
+}
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+img {
+    border: solid 4px navy;
+    height: auto;
+    width: auto;
+}
+
+h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: blue; 
+    text-shadow: 2px 2px; 
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    margin-left: 300px;
+}
+
+.menu li {
+    display: inline;
+    margin: 40px;
+    padding: 5px;
+    border: solid 1px navy;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: blue;
+    font-size: xx-large;
+    box-shadow: 0 6px #999;
+}
+
+.menu li:hover {
+    text-decoration: underline;
+}
+
+.menu li:active {
+    color: orange;
+    transform: translateY(4px);
+}
+
+.menu a:hover {
+    color: yellow;
+}
+.menu a::after {
+    color: red;
+}
+@media only screen and (max-width: 1368px) {
+    .menu li {
+        display: flex;
+       justify-content: center;
+       margin-top: 10px;
+       margin-bottom: 10px;
+    }
+
+    p {
+        margin-left: 300px;
+        margin-right: 300px;
+    }  
+}
+
+@media only screen and (max-width: 1186px) {
+    .menu li {
+        display: block;
+    }
+    p {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 895px) {
+    .menu li {
+        display: block;
+    }
+    p {
+        margin-left: 300px;
+        margin-right: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .menu li{
+        display: block;
+    }
+    p {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+}
+
+
+/* Main Content */
+h2 {
+text-align: center;
+border: solid 4px navy;
+}
+
+h3, h4, h5  {
+    text-align: center;
+}
+#pattern {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#hacksaw {
+   display: flex;
+   justify-content: center; 
+}
+
+#Brushes {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    
+}
+
+#frame {
+    display: flex;
+    justify-content: center;
+}
+
+#Frames {
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(250, 7, 7);
+}
+
+#finnishpaint {
+    display: flex;
+    justify-content: center;
+}
+
+#Paint { 
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: blue;
+}
+
+p { 
+    text-align: left;
+}
+#Finnish {
+    color: blue;
+    font-weight: bold;
+}
+
+#pattern {
+    width: 95%;
+}
+
+
+/* specials */
+
+#special {
+    margin-top: 80px;
+    margin-bottom: 10px;    
+}
+
+#specials { 
+        font-size: 32px;
+        font-weight: bold;
+        color: white;
+        background-color: orange; 
+}
+
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+#mybutton {
+    background-color: orange;  
+    border: solid 2px navy; 
+    text-align: center;
+    padding: 10px 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 6px gray;
+}
+
+#mybutton:hover {
+    background-color: gold;
+    text-decoration: underline;
+}
+
+#mybutton:active {
+    transform: translateY(4px);
+}
+
+#today {
+    text-align: center;
+}
+
+
+/* footer */
+#footer {
+border: solid 4px navy;
+margin-top: 10px;
+}
+
